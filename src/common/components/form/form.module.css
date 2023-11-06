@@ -1,0 +1,25 @@
+.form {
+    border: 2px solid #888;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: fit-content;
+    background-color: #fff;
+}
+
+.form h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form h3 {
+    text-align: start;
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #444;
+    font-weight: 500;
+}
+
+.form hr {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,9 @@
+.checkbox {
+    display: flex;
+    gap: 5px;
+}
+
+.checkbox label{
+    font-weight: 500;
+    color: #444;
+}

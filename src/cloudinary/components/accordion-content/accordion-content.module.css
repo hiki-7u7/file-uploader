@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    background-color: #BBBFCA;
+    height: 130px;
+    max-width: 150px;
+}
+.image a {
+    height: 100%;
+    width: 100%;
+}
+.image a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.min-info {
+    display: flex;
+    flex-direction: column;
+    color: #444;
+    font-weight: 500;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.min-info span {
+    font-weight: bold;
+    color: #000;
+}

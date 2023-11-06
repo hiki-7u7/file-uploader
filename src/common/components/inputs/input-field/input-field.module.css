@@ -1,0 +1,32 @@
+.input-group {
+    width: 350px;
+    position: relative;
+}
+
+.input-group label{
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.input-group input{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid #000;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group span{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #EB1D36;
+    font-weight: 500;
+    font-size: 15px;
+}

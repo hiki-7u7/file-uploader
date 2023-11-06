@@ -1,0 +1,13 @@
+.container-page {
+    margin: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    min-height: calc(100vh - 90px);
+    gap: 20px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

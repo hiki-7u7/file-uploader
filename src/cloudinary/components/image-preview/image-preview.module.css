@@ -1,0 +1,36 @@
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.image {
+    background-color: #BBBFCA;
+    height: 150px;
+    width: 100%;
+}
+.image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.min-info {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    color: #444;
+    font-weight: 500;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.name span,
+.size span,
+.type span {
+    font-weight: bold;
+    color: #000;
+}

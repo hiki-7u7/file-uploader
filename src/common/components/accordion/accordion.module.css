@@ -1,0 +1,60 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion .contentBx {
+    position: relative;
+}
+
+.accordion .contentBx .label-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #029db5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.actions {
+    height: 100%;
+    display: flex;
+}
+
+.label {
+    margin-left: 10px;    
+}
+
+.btn-more {
+    background-color: red;
+    width: 30px;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btn-copy {
+    padding: 10px;
+    background-color: blue;
+}
+
+
+
+
+
+.accordion .contentBx .content {
+    position: relative;
+    background-color: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+    height: 150px;
+    padding: 10px;
+}
